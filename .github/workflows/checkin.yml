@@ -32,7 +32,6 @@ jobs:
     - name: Collect Subscribe
       id: collect
       run: |
-        cd aggregate
         python -u subscribe/collect.py -s
       
     - name: Create/Update Gist
@@ -52,7 +51,7 @@ jobs:
 
     - name: Commit and Push
       run: |
-       cd aggregate/data # 根据需要进入到文件所在目录
+       cd data # 根据需要进入到文件所在目录
        git add proxies.yaml
        git commit -m "Update proxies.yaml" # 提交信息根据需要自定义
        git push
