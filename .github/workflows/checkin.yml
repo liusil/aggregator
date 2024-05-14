@@ -1,25 +1,58 @@
-name: checkin
+name: Get Subscription Weekly
+
 on:
   schedule:
-    - cron: "45 02 * * *"
+    - cron: '0 23 * * *'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
 
 jobs:
-  sync_with_upstream:
+  execute-script:
     runs-on: ubuntu-latest
-    name: auto checkin for traffic
 
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
-        with:
-          ref: master
+    - uses: actions/checkout@v3
 
-      - name: checkin
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.x"
-          architecture: "x64"
-      - run: python ./.github/actions/checkin/universal.py
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
 
-      - name: timestamp
-        run: date
+    - name: Install dependencies
+      run: |
+        pip3 install pyYAML requests
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    
+    - name: Install tqdm
+      run: |
+        pip install tqdm
+
+    - name: Collect Subscribe
+      id: collect
+      run: |
+        cd aggregate
+        python -u subscribe/collect.py -s
+      
+    - name: Create/Update Gist
+      env:
+        GH_TOKEN: ${{ secrets.PAT}}
+      run: |
+        cd aggregate/data
+        gh gist edit ${{ secrets.GIST_ID }} --add "proxies.yaml"
+        gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
+        gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
+        gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
+        
+    - name: Configure git
+      run: |
+        git config --global user.email "202769617@qq.com" # 使用您的 GitHub 邮箱地址
+        git config --global user.name "liusil" # 使用您的 GitHub 用户名
+
+    - name: Commit and Push
+      run: |
+       cd aggregate/data # 根据需要进入到文件所在目录
+       git add proxies.yaml
+       git commit -m "Update proxies.yaml" # 提交信息根据需要自定义
+       git push
