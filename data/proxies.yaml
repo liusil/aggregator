@@ -1,83 +1,176 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 印度1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
+  name: 印度2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 38648
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-莫斯科专线2-1A
+  network: ws
+  port: 443
+  server: sccqp.kovmk.website
+  servername: sccqp.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cd532a1d-7608-467a-a1ed-0132d3bd2678
+  ws-opts:
+    headers:
+      Host: sccqp.kovmk.website
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 日本02-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾 IEPL专线NO1
+  port: 20016
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- cipher: chacha20-ietf-poly1305
+  name: 立陶宛2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 53951
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港4-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 31761
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 3785
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国4-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 16683
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本04-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20008
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港01-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 34338
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国6-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 29473
+  server: 122.188.71.122
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 印度1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
   port: 40852
   server: 183.232.159.51
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 英国 IEPL专线NO1
+  port: 54774
+  server: sh3.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
 - cipher: chacha20-ietf-poly1305
-  name: 台湾01-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 47564
+  name: 罗马利亚2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 34635
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 32646
+  server: dg2-dhmkadj4ewendprw.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 印度2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 38648
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国 纽约01-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20013
   server: gy.666666222.shop
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港3-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 21104
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 美国NO.2
-  port: 45053
+  name: 印尼 IEPL专线NO1
+  port: 25129
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- alterId: 0
+  cipher: auto
+  name: 澳大利亚原生2
+  port: 45063
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - cipher: chacha20-ietf-poly1305
-  name: 香港03-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20052
+  name: 台湾 1-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 20032
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 韩国2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 51976
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 日本NO.1
-  port: 45056
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 韩国1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 26343
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 台湾2-1C
-  port: 45077
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- alterId: 0
-  cipher: auto
-  name: 印度2-1C
-  port: 45073
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 台湾1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 30285
+  name: 香港4-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 31761
   server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
   type: ss
   udp: true
@@ -90,117 +183,109 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-莫斯科专线2-1C
+  network: ws
+  port: 443
+  server: sccqp.kovmk.website
+  servername: sccqp.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e020d9d9-b67a-4de3-9519-36a4d4dd61dd
+  ws-opts:
+    headers:
+      Host: sccqp.kovmk.website
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 立陶宛2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 53951
-  server: ah3-picfgde5bmwtmart.bestzumo.com
+  name: 美国 纽约2-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 20016
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡1SS移动飞快
-  password: efd124f5-fc19-4b2b-b51b-294f761e8bad
-  port: 23343
-  server: sg6.hy2.one
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 立陶宛2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 53951
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾备用2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 25091
-  server: dg2-dhmkadj4ewendprw.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 34975
-  server: 110.40.59.61
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 罗马利亚1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 33594
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国5-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 50225
-  server: 183.232.159.51
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国4-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 55753
+  name: 新加坡4-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 34892
   server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 澳大利亚原生2
-  port: 45063
+  name: 日本NO.2
+  port: 45057
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 香港1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 50653
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - alterId: 0
   cipher: auto
-  name: 日本 IEPL专线NO1
-  port: 20017
+  name: 阿根廷 IEPL专线NO1
+  port: 20014
   server: i.needss.top
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- alterId: 0
-  cipher: auto
-  name: 法国2
-  port: 45071
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 52065
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  name: 新加坡4-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 34892
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 罗马利亚1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 33594
+  name: 美国5-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 50225
+  server: 183.232.159.51
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 51957
   server: ah3-picfgde5bmwtmart.bestzumo.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港02-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20035
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国3-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 53793
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 48903
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 30285
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 俄罗斯-圣彼得堡专线1
+  name: 俄罗斯-圣彼得堡专线1-1C
   network: ws
   port: 8080
   server: m003.mmzhk.website
@@ -209,318 +294,75 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7d8cf5d9-b632-4e0e-9e36-80a6d6e4f880
+  uuid: e020d9d9-b67a-4de3-9519-36a4d4dd61dd
   ws-opts:
     headers:
       Host: daohang.mmzhk.website
     path: /xyz
 - cipher: chacha20-ietf-poly1305
-  name: 美国6-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 29473
-  server: 122.188.71.122
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港 IEPL专线NO1
-  port: 20013
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- cipher: chacha20-ietf-poly1305
-  name: 美国3-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 53793
-  server: 110.40.59.61
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 41575
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国4-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 16683
-  server: 110.40.59.61
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾备用1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 25179
-  server: dg2-dhmkadj4ewendprw.bestzumo.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国 IEPL专线NO1
-  port: 54770
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- cipher: chacha20-ietf-poly1305
-  name: 美国 纽约01-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国4-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 16683
-  server: 110.40.59.61
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 意大利中转2
-  network: ws
-  port: 80
-  server: it2.127414.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 63b64e72-c611-4de9-b055-8839124a6862
-  ws-opts:
-    headers:
-      Host: it2.127414.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 越南1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 32646
-  server: dg2-dhmkadj4ewendprw.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港02-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20035
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港4-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 31761
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国 纽约01-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡3-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 50474
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本01-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20002
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 新加坡 IEPL专线NO1
-  port: 20015
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- cipher: chacha20-ietf-poly1305
-  name: 日本02-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20004
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾01-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 47564
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 香港1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
   port: 50653
   server: ah3-picfgde5bmwtmart.bestzumo.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 46593
-  server: 110.40.59.61
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 印度中转2
-  network: ws
-  port: 80
-  server: in2.127414.xyz
+  name: 香港
+  port: 19901
+  server: xg.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 63b64e72-c611-4de9-b055-8839124a6862
-  ws-opts:
-    headers:
-      Host: in2.127414.xyz
-    path: /
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - cipher: chacha20-ietf-poly1305
-  name: 香港2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 52890
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国中转2
-  network: ws
-  port: 80
-  server: de2.127414.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 63b64e72-c611-4de9-b055-8839124a6862
-  ws-opts:
-    headers:
-      Host: de2.127414.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 日本2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 3785
-  server: ah3-picfgde5bmwtmart.bestzumo.com
+  name: 香港01-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 34338
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本01-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
   port: 20002
   server: gy.666666222.shop
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 英国 IEPL专线NO1
-  port: 54774
-  server: sh3.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
 - cipher: chacha20-ietf-poly1305
-  name: 美国2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 56697
-  server: 183.232.159.51
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 越南1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 32646
-  server: dg2-dhmkadj4ewendprw.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
+  name: 香港2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
   port: 52890
   server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 台湾02-3X-流媒体
-  network: ws
-  port: 80
-  server: cf.hy2.one
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: efd124f5-fc19-4b2b-b51b-294f761e8bad
-  ws-opts:
-    headers:
-      Host: tw02.hy2.one
-    path: /af323d
 - cipher: chacha20-ietf-poly1305
-  name: 香港02-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20035
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 法国 CM 隧道NO1
-  port: 52108
-  server: sh3.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- cipher: chacha20-ietf-poly1305
-  name: 美国 纽约2-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国 IEPL专线NO1
-  port: 54787
-  server: sh3.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 44263
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡4-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 34892
+  name: 韩国4-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 55753
   server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 46593
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡1SS移动飞快
+  password: e33f1ae9-b1ef-4de1-a540-1e3d39f522a9
+  port: 23343
+  server: sg6.hy2.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 56697
+  server: 183.232.159.51
   type: ss
   udp: true
 - alterId: 0
@@ -533,255 +375,304 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: efd124f5-fc19-4b2b-b51b-294f761e8bad
+  uuid: e33f1ae9-b1ef-4de1-a540-1e3d39f522a9
   ws-opts:
     headers:
       Host: sg0002.hy-2.top
     path: /0
 - cipher: chacha20-ietf-poly1305
-  name: 澳门1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 54697
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 台湾 IEPL专线NO1
-  port: 20016
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- cipher: chacha20-ietf-poly1305
-  name: 韩国4-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 55753
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港03-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20052
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 台湾1-1C
-  port: 45078
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 香港3-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 21104
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾备用2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 25091
-  server: dg2-dhmkadj4ewendprw.bestzumo.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 韩国 IEPL专线NO1
-  port: 20021
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯-莫斯科专线2
-  network: ws
-  port: 443
-  server: sccqp.kovmk.website
-  servername: sccqp.kovmk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7d8cf5d9-b632-4e0e-9e36-80a6d6e4f880
-  ws-opts:
-    headers:
-      Host: sccqp.kovmk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.1
-  port: 45054
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 34975
-  server: 110.40.59.61
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本02-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20004
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港4-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 31761
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 日本中转2
-  network: ws
-  port: 80
-  server: jp2.127414.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 63b64e72-c611-4de9-b055-8839124a6862
-  ws-opts:
-    headers:
-      Host: jp2.127414.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 澳门NO.2
-  port: 45051
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 日本03-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20006
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾 1-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 罗马利亚2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 34635
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 印度2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 38648
-  server: 110.40.59.61
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳门2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 12235
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾 1-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国3-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 42457
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡3-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 50474
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 美国6-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
   port: 29473
   server: 122.188.71.122
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 澳门2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 12235
+  name: 香港02-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 20035
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳门1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 54697
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本03-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20006
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾备用2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 25091
+  server: dg2-dhmkadj4ewendprw.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 26343
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 澳大利亚原生1
+  port: 45062
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 印度1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 40852
+  server: 183.232.159.51
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 46593
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 中国-香港-001-1B
+  network: ws
+  port: 443
+  server: hxoht.mmzhk.website
+  servername: hxoht.mmzhk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 07d967f9-f961-4c85-b8e7-6dd48ae3db4c
+  ws-opts:
+    headers:
+      Host: hxoht.mmzhk.website
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 34975
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 法国1
+  port: 45072
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- alterId: 0
+  cipher: auto
+  name: 法国2
+  port: 45071
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 立陶宛2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 53951
   server: ah3-picfgde5bmwtmart.bestzumo.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 澳大利亚中转2
+  name: 俄罗斯-新西伯利亚-001-1A
   network: ws
-  port: 80
-  server: au2.127414.xyz
+  port: 443
+  server: qghwh.kovmk.website
+  servername: qghwh.kovmk.website
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 63b64e72-c611-4de9-b055-8839124a6862
+  uuid: cd532a1d-7608-467a-a1ed-0132d3bd2678
   ws-opts:
     headers:
-      Host: au2.127414.xyz
+      Host: qghwh.kovmk.website
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 韩国3-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 42457
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 30285
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国3-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 42457
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国4-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 55753
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国 纽约01-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 34975
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 50653
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国5-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 50225
+  server: 183.232.159.51
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 阿根廷 IEPL专线NO1
-  port: 20014
-  server: i.needss.top
+  name: 瑞士-苏黎世-001-1C
+  network: ws
+  port: 443
+  server: dmybj.kovmk.website
+  servername: dmybj.kovmk.website
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
+  uuid: e020d9d9-b67a-4de3-9519-36a4d4dd61dd
+  ws-opts:
+    headers:
+      Host: dmybj.kovmk.website
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 日本04-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
+  name: 日本04-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
   port: 20008
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 韩国1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 26343
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  name: 美国2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 56697
+  server: 183.232.159.51
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 法国 CM 隧道NO1
+  port: 52108
+  server: sh3.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- alterId: 0
+  cipher: auto
+  name: 日本 IEPL专线NO1
+  port: 20017
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- alterId: 0
+  cipher: auto
+  name: 新加坡NO.2
+  port: 45055
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- alterId: 0
+  cipher: auto
+  name: 日本NO.1
+  port: 45056
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 香港3-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 21104
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-莫斯科-001-1B
+  network: ws
+  port: 443
+  server: nanwn.kovmk.website
+  servername: nanwn.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 07d967f9-f961-4c85-b8e7-6dd48ae3db4c
+  ws-opts:
+    headers:
+      Host: nanwn.kovmk.website
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 台湾01-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 47564
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡1SS移动直连
+  password: 23fd8a35-ac3f-4842-8428-19bb2e75529b
+  port: 12343
+  server: sg6.sulink.one
   type: ss
   udp: true
 - alterId: 0
@@ -793,7 +684,241 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 韩国1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 26343
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳门2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 12235
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 52065
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-新西伯利亚-001-1B
+  network: ws
+  port: 443
+  server: qghwh.kovmk.website
+  servername: qghwh.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 07d967f9-f961-4c85-b8e7-6dd48ae3db4c
+  ws-opts:
+    headers:
+      Host: qghwh.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 IEPL专线NO1
+  port: 54787
+  server: sh3.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- cipher: chacha20-ietf-poly1305
+  name: 韩国2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 51976
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 瑞士-苏黎世-001-1A
+  network: ws
+  port: 443
+  server: dmybj.kovmk.website
+  servername: dmybj.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cd532a1d-7608-467a-a1ed-0132d3bd2678
+  ws-opts:
+    headers:
+      Host: dmybj.kovmk.website
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 美国 纽约2-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 罗马利亚1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 33594
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 44263
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾 1-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-莫斯科-001-1C
+  network: ws
+  port: 443
+  server: nanwn.kovmk.website
+  servername: nanwn.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e020d9d9-b67a-4de3-9519-36a4d4dd61dd
+  ws-opts:
+    headers:
+      Host: nanwn.kovmk.website
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 香港03-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20052
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 41575
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾备用1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 25179
+  server: dg2-dhmkadj4ewendprw.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 罗马利亚2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 34635
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 罗马利亚1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 33594
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 48903
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01-1A
+  password: c75bc458-3ec1-43a0-8df8-ef2855c830ef
+  port: 20002
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 新加坡NO.1
+  port: 45054
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 台湾备用1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 25179
+  server: dg2-dhmkadj4ewendprw.bestzumo.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 中国-香港-001-1C
+  network: ws
+  port: 443
+  server: hxoht.mmzhk.website
+  servername: hxoht.mmzhk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e020d9d9-b67a-4de3-9519-36a4d4dd61dd
+  ws-opts:
+    headers:
+      Host: hxoht.mmzhk.website
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 香港2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 52890
+  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本03-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 20006
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 44263
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾1-1C
+  port: 45078
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 澳门2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 12235
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 印度1-1C
@@ -803,54 +928,35 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - alterId: 0
   cipher: auto
-  name: 新加坡NO.2
-  port: 45055
-  server: xdd.dashuai.cyou
+  name: 美国5-1C
+  network: ws
+  port: 80
+  server: yx.sulink.one
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 23fd8a35-ac3f-4842-8428-19bb2e75529b
+  ws-opts:
+    headers:
+      Host: us5.sulink.one
+    path: /
 - alterId: 0
   cipher: auto
-  name: 香港NO.1
-  port: 45050
+  name: 加拿大1
+  port: 45064
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - alterId: 0
   cipher: auto
-  name: 澳大利亚原生1
-  port: 45062
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 美国1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 50993
-  server: 183.232.159.51
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 越南2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 48903
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 中国-香港-001
+  name: 中国-香港-001-1A
   network: ws
   port: 443
   server: hxoht.mmzhk.website
@@ -859,16 +965,135 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7d8cf5d9-b632-4e0e-9e36-80a6d6e4f880
+  uuid: cd532a1d-7608-467a-a1ed-0132d3bd2678
   ws-opts:
     headers:
       Host: hxoht.mmzhk.website
     path: /
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-新西伯利亚-001-1C
+  network: ws
+  port: 443
+  server: qghwh.kovmk.website
+  servername: qghwh.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e020d9d9-b67a-4de3-9519-36a4d4dd61dd
+  ws-opts:
+    headers:
+      Host: qghwh.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-圣彼得堡专线1-1A
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  servername: m003.mmzhk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cd532a1d-7608-467a-a1ed-0132d3bd2678
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
 - cipher: chacha20-ietf-poly1305
-  name: 台湾1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 30285
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
+  name: 越南1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 32646
+  server: dg2-dhmkadj4ewendprw.bestzumo.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-莫斯科-001-1A
+  network: ws
+  port: 443
+  server: nanwn.kovmk.website
+  servername: nanwn.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cd532a1d-7608-467a-a1ed-0132d3bd2678
+  ws-opts:
+    headers:
+      Host: nanwn.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国NO.2
+  port: 45053
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 日本2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 3785
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 瑞士-苏黎世-001-1B
+  network: ws
+  port: 443
+  server: dmybj.kovmk.website
+  servername: dmybj.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 07d967f9-f961-4c85-b8e7-6dd48ae3db4c
+  ws-opts:
+    headers:
+      Host: dmybj.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 IEPL专线NO1
+  port: 54770
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- cipher: chacha20-ietf-poly1305
+  name: 台湾备用2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 25091
+  server: dg2-dhmkadj4ewendprw.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国4-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 16683
+  server: 110.40.59.61
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡3-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 50474
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾01-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 47564
+  server: gy.666666222.shop
   type: ss
   udp: true
 - alterId: 0
@@ -880,32 +1105,54 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-莫斯科专线2-1B
+  network: ws
+  port: 443
+  server: sccqp.kovmk.website
+  servername: sccqp.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 07d967f9-f961-4c85-b8e7-6dd48ae3db4c
+  ws-opts:
+    headers:
+      Host: sccqp.kovmk.website
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 澳门NO.2
+  port: 45051
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - cipher: chacha20-ietf-poly1305
-  name: 美国3-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
+  name: 美国3-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
   port: 53793
   server: 110.40.59.61
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 印度2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 38648
-  server: 110.40.59.61
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 韩国 IEPL专线NO1
+  port: 20021
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡4-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 34892
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 越南2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 48903
+  name: 新加坡3-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 50474
   server: ah3-picfgde5bmwtmart.bestzumo.com
   type: ss
   udp: true
@@ -918,256 +1165,124 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
 - alterId: 0
   cipher: auto
-  name: 美国5-1C
-  network: ws
-  port: 80
-  server: yx.sulink.one
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2eb810f-75fc-4ee3-81a2-922ad2d9308e
-  ws-opts:
-    headers:
-      Host: us5.sulink.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本NO.2
-  port: 45057
+  name: 台湾2-1C
+  port: 45077
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 台湾2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 51957
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港01-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 34338
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 法国1
-  port: 45072
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- alterId: 0
-  cipher: auto
-  name: 印尼 IEPL专线NO1
-  port: 25129
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
-- cipher: chacha20-ietf-poly1305
-  name: 澳门1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 54697
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港3-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 21104
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 印度1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 40852
-  server: 183.232.159.51
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国3-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 42457
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本03-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20006
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 迪拜中转2
-  network: ws
-  port: 80
-  server: ae2.127414.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 63b64e72-c611-4de9-b055-8839124a6862
-  ws-opts:
-    headers:
-      Host: ae2.127414.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 46593
-  server: 110.40.59.61
-  type: ss
-  udp: true
-- name: 韩国-三网优化2
-  password: c36a0849-4603-4627-835f-f42763df0d23
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: true
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 56697
-  server: 183.232.159.51
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港
-  port: 19901
-  server: xg.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 52065
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国5-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 50225
-  server: 183.232.159.51
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 44263
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 罗马利亚2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 34635
-  server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 51976
-  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本2-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 3785
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡1SS移动直连
-  password: f2eb810f-75fc-4ee3-81a2-922ad2d9308e
-  port: 12343
-  server: sg6.sulink.one
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国1-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 50993
-  server: 183.232.159.51
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯-莫斯科-001
-  network: ws
-  port: 443
-  server: nanwn.kovmk.website
-  servername: nanwn.kovmk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7d8cf5d9-b632-4e0e-9e36-80a6d6e4f880
-  ws-opts:
-    headers:
-      Host: nanwn.kovmk.website
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 美国 纽约2-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾2-1A
-  password: df0ce719-a747-4cdb-9b8e-a81855d3d4e1
-  port: 51957
-  server: ah3-picfgde5bmwtmart.bestzumo.com
-  type: ss
-  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - cipher: chacha20-ietf-poly1305
   name: 日本1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
   port: 41575
   server: ah1-xj6fwjj5fymdrn8y.bestzumo.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 加拿大1
-  port: 45064
+  name: 印度2-1C
+  port: 45073
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
+- cipher: chacha20-ietf-poly1305
+  name: 台湾2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 51957
+  server: ah3-picfgde5bmwtmart.bestzumo.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港03-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 20052
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02-1B
+  password: 9061fc78-444a-4687-a614-71e8d282f8a7
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- name: 韩国-三网优化2
+  password: 1db25b33-5408-4679-83db-b949478a3480
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: true
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾02-3X-流媒体
+  network: ws
+  port: 80
+  server: cf.hy2.one
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e33f1ae9-b1ef-4de1-a540-1e3d39f522a9
+  ws-opts:
+    headers:
+      Host: tw02.hy2.one
+    path: /af323d
+- alterId: 0
+  cipher: auto
+  name: 香港 IEPL专线NO5
+  port: 24771
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
+- cipher: chacha20-ietf-poly1305
+  name: 美国1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 50993
+  server: 183.232.159.51
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国2-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 51976
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 香港NO.1
+  port: 45050
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b2e169ee-51c5-4f91-971b-afd62241d169
+  uuid: 9d90e5b4-99cc-4209-bfa6-01bbe5251895
 - cipher: chacha20-ietf-poly1305
-  name: 香港01-1A
-  password: 8e2a9978-1a7f-4028-ad1d-dbdb2c7be107
-  port: 34338
-  server: gy.666666222.shop
+  name: 新加坡2-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 52065
+  server: ttnx.xn--pss804a00koh0a.xn--fiqs8s
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳门1-1B
+  password: f973599d-10be-47bc-bad9-027ec0a800f8
+  port: 54697
+  server: ah3-picfgde5bmwtmart.bestzumo.com
   type: ss
   udp: true
 - alterId: 0
@@ -1179,18 +1294,27 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 1fc00518-1b85-44a7-97ab-c1d83f211a0a
+  uuid: 06cc3fcb-f6d9-4b9c-b290-806c72bf8088
 - cipher: chacha20-ietf-poly1305
-  name: 日本04-1B
-  password: fc1fe59f-bcdf-43b7-bb35-cfe71638ae51
-  port: 20008
-  server: gy.666666222.shop
+  name: 美国1-1A
+  password: 9f1d2fbf-706d-4bd4-9bdc-d96cd4a7804c
+  port: 50993
+  server: 183.232.159.51
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾备用1-1B
-  password: a8c49ca5-9992-4f31-b3b0-d324ab43944f
-  port: 25179
-  server: dg2-dhmkadj4ewendprw.bestzumo.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯-圣彼得堡专线1-1B
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  servername: m003.mmzhk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
+  uuid: 07d967f9-f961-4c85-b8e7-6dd48ae3db4c
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
