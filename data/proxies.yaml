@@ -1,194 +1,54 @@
 proxies:
-- name: 韩国-三网优化2
-  password: 60300a84-87a9-46dd-967e-83d012c5fb9a
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: true
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港02
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 52005
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 新加坡04
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 12600
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 美国02
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 52448
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 台湾02
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 50796
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 韩国 专线NO2
-  port: 45075
-  server: xdd.dashuai.cyou
+  name: 3X备用专线香港1
+  port: 50051
+  server: xh.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 澳大利亚原生2
-  port: 45063
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: chacha20-ietf-poly1305
-  name: 1号专线 香港HK 113
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 39524
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港NO.1
-  port: 45050
+  name: 日本NO.1
+  port: 45056
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- name: 2号专线 香港HK 74
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 33838
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 台湾03
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 40034
-  server: wujrnbitcet.gym0boy.com
-  type: ss
-  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 加拿大1
-  port: 45064
+  name: 美国NO.1
+  port: 45052
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 日本04
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 28799
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本02
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 22609
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 台湾2
-  port: 45077
+  name: 印度2
+  port: 45073
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 美国NO.2
-  port: 45053
-  server: xdd.dashuai.cyou
+  name: 台湾1
+  port: 45078
+  server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- name: 2号专线 美国US 110
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 33889
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- name: 2号专线 香港HK 244
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 38522
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1号专线 日本JP 114
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 36555
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 美国04
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 32656
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 台湾04
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 30555
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港03
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 57037
-  server: wujrnbitcet.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 台湾01
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 30372
-  server: wujrnbitcet.gym0boy.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-线路1
-  password: a09f6fd2-12e7-4004-9a2f-4d1d04769d3b
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -198,12 +58,22 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 美国01
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 59270
-  server: wujrnbitcet.gym0boy.com
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- alterId: 0
+  cipher: auto
+  name: 香港NO.1
+  port: 45050
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- cipher: chacha20-ietf-poly1305
+  name: 爱尔兰-都柏林
+  password: 4c10e8f1-c508-4ca6-8382-93f3df02af87
+  port: 22800
+  server: 107.175.187.181
   type: ss
   udp: true
 - alterId: 0
@@ -215,100 +85,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- alterId: 0
-  cipher: auto
-  name: 印度1
-  port: 45074
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 新加坡02
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 17377
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 英国2
-  port: 45067
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 新加坡03
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 37908
-  server: wujrnbitcet.gym0boy.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1号专线 新加坡SG 146
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 39622
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1号专线 台湾TW 89
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 33922
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国NO.1
-  port: 45052
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- name: 2号专线 香港HK 53
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 39765
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 法国2
-  port: 45071
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- alterId: 0
-  cipher: auto
-  name: 加拿大2
-  port: 45065
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 新加坡01
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 21878
-  server: wujrnbitcet.gym0boy.com
-  type: ss
-  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -318,113 +95,95 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - cipher: chacha20-ietf-poly1305
-  name: 1号专线 美国US 205
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 39312
+  name: 1号专线 新加坡SG 146
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 39622
   server: 120.233.44.206
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 新加坡NO.2
-  port: 45055
+  name: 澳大利亚原生2
+  port: 45063
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 香港01
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 24064
-  server: i2plcwjnhrl6.gym0boy.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 美国03
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 29646
-  server: wujrnbitcet.gym0boy.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 新加坡NO.1
-  port: 45054
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- name: 2号专线 日本JP 75
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
-  port: 39769
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - cipher: chacha20-ietf-poly1305
   name: 1号专线 日本JP 103
-  password: 4d90fc00-8eb5-426e-84d8-f169dd6d665f
+  password: ae811eb9-5281-411f-a603-1879c92b9920
   port: 31923
   server: 120.233.44.206
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 爱尔兰-都柏林
-  password: a09f6fd2-12e7-4004-9a2f-4d1d04769d3b
+  name: 香港-线路1
+  password: 4c10e8f1-c508-4ca6-8382-93f3df02af87
   port: 22800
-  server: 107.175.187.181
+  server: 156.224.77.215
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 印度2
-  port: 45073
+  name: 韩国 专线NO2
+  port: 45075
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 韩国 专线NO1
-  port: 45076
+  name: 加拿大1
+  port: 45064
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 日本03
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 49812
-  server: wujrnbitcet.gym0boy.com
-  type: ss
-  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 日本NO.2
-  port: 45057
+  name: 加拿大2
+  port: 45065
   server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 日本01
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 27663
-  server: wujrnbitcet.gym0boy.com
-  type: ss
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- alterId: 0
+  cipher: auto
+  name: 印度1
+  port: 45074
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- alterId: 0
+  cipher: auto
+  name: 美国NO.2
+  port: 45053
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- name: 2号专线 美国US 110
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 33889
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -435,31 +194,152 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 日本NO.1
-  port: 45056
+  name: 法国2
+  port: 45071
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- name: 2号专线 香港HK 74
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 33838
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾2
+  port: 45077
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- cipher: chacha20-ietf-poly1305
+  name: 1号专线 香港HK 113
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 39524
+  server: 120.233.44.206
+  type: ss
+  udp: true
+- name: 2号专线 香港HK 53
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 39765
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: 2号专线 香港HK 244
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 38522
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1号专线 美国US 205
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 39312
+  server: 120.233.44.206
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3X备用专线台湾1
+  port: 50050
+  server: xh.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- alterId: 0
+  cipher: auto
+  name: 日本NO.2
+  port: 45057
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- name: 韩国-三网优化2
+  password: d7dce042-9316-4d67-bd1f-e8bc682cd515
+  port: 44732
+  server: kr-qingyun.dwyun.me
+  skip-cert-verify: true
+  sni: kr-qingyun.dwyun.me
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 英国2
+  port: 45067
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- alterId: 0
+  cipher: auto
+  name: 新加坡NO.2
+  port: 45055
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- name: 2号专线 日本JP 75
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 39769
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1号专线 日本JP 114
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 36555
+  server: 120.233.44.206
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 韩国 专线NO1
+  port: 45076
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
 - alterId: 0
   cipher: auto
-  name: 台湾1
-  port: 45078
+  name: 新加坡NO.1
+  port: 45054
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: fd6e00c7-37aa-4113-bccd-73d38504c88d
-- cipher: aes-256-gcm
-  name: 香港04
-  password: db3edc2f-1993-4434-af48-1d3f084e68fb
-  port: 15034
-  server: i2plcwjnhrl6.gym0boy.com
+  uuid: 3dc02771-1879-4c28-ac04-2664a9edf36a
+- cipher: chacha20-ietf-poly1305
+  name: 1号专线 台湾TW 89
+  password: ae811eb9-5281-411f-a603-1879c92b9920
+  port: 33922
+  server: 120.233.44.206
   type: ss
   udp: true
